@@ -1,14 +1,14 @@
 terraform {
   required_providers {
     hashicups = {
-      versions = ["0.2"]
-      source = "hashicorp.com/edu/hashicups"
+      version = "~> 0.3.1"
+      source  = "hashicorp.com/edu/hashicups"
     }
   }
 }
 
 provider "hashicups" {
-  host = "https://2886795279-19090-frugo04.environments.katacoda.com"
+  host     = "https://2886795279-19090-frugo04.environments.katacoda.com"
   username = "education"
   password = "test123"
 }
